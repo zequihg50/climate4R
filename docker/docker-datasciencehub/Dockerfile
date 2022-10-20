@@ -10,7 +10,7 @@ RUN apt-get update && \
     apt-get install -y xorg gcc g++ perl python3 python3.10 automake make \
                        wget git curl libdb-dev \
                        zlib1g-dev bzip2 libncurses5-dev \
-                       texlive-latex-base \
+                       texlive-latex-base texlive-xetex texlive-fonts-recommended texlive-plain-generic pandoc \
                        default-jre \
                        python3-dev \
                        gfortran \
